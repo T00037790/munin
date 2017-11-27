@@ -1,0 +1,6 @@
+---
+- name: Configuracion de apache
+  hosts: web
+  remote_user: root
+  roles:
+    - munin

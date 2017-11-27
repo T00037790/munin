@@ -1,6 +1,6 @@
 # munin
-installation of munin in a docker container
-
+Installation of munin in a docker container
+___________________________________________
 
 
 building docker image:
@@ -10,4 +10,4 @@ building docker image:
 
 creating  docker container
 
-              ./docker_create.sh server:16.04
+              ./create_docker.sh server:16.04
