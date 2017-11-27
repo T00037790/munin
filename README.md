@@ -18,6 +18,10 @@ creating  docker container
 role apache Installation
 
               ansible-playbook -i hosts roles/apache.yml
-Output
+output
 
 ![imagen](https://user-images.githubusercontent.com/21178320/33262376-086a3bca-d334-11e7-9f5e-de0f87924a46.png)
+
+apache running
+
+![imagen](https://user-images.githubusercontent.com/21178320/33262867-c29e0ab6-d335-11e7-9dc7-26036f6588de.png)
