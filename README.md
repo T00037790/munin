@@ -11,3 +11,7 @@ building docker image:
 creating  docker container
 
               ./create_docker.sh server:16.04
+
+role apache Installation
+
+              ansible-playbook -i hosts roles/apache.yml
