@@ -1,2 +1,6 @@
 [web]
 server01 ansible_port=2221 ansible_ssh_private_key_file=key.private
+
+[node]
+server_slave ansible_port=2222 ansible_ssh_private_key_file=key.private
+

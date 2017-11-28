@@ -1,5 +1,5 @@
 ---
-- name: Configuracion de apache
+- name: Munin master installation
   hosts: web
   remote_user: root
   roles:

@@ -1,0 +1,4 @@
+---
+# handlers file for munin-node
+- name: restart munin-node
+  service: name=munin-node state=restarted

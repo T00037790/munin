@@ -63,3 +63,13 @@ ________________________________________________________________________________
 output
 
 ![imagen](https://user-images.githubusercontent.com/21178320/33307489-ad5b00a0-d3e4-11e7-8a9a-7d24d8071b53.png)
+
+
+
+#### role munin-node installation
+
+              ansible-playbook -i hosts roles/munin-node.yml
+
+output
+
+![imagen](https://user-images.githubusercontent.com/21178320/33308355-1e83b36e-d3e8-11e7-9a27-668acb6d3f22.png)
