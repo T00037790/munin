@@ -1,8 +1,14 @@
-# munin
+# Munin
 Installation of munin in a docker container
 ___________________________________________
 Munin is a networked resource monitoring tool that can help analyze resource trends and "what just happened to kill our performance?" problems. It is designed to be very plug and play. A default installation provides a lot of graphs with almost no work.
 
+
+## Munin architecture
+
+![imagen](https://user-images.githubusercontent.com/21178320/33304130-1882f6cc-d3d5-11e7-917b-73e7e17494c3.png)
+
+________________________________________________________________________________________________________________________
 
 ## Munin-Master
 
@@ -23,7 +29,7 @@ The node is a small agent running on each monitored host.
 
 The munin node is installed on all monitored servers. It accepts connections from the munin master, and runs plugins on demand.
 
-
+________________________________________________________________________________________________________________________
 
 
 building docker image:
