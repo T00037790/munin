@@ -31,6 +31,7 @@ The munin node is installed on all monitored servers. It accepts connections fro
 
 ________________________________________________________________________________________________________________________
 
+#### step by step
 
 building docker image:
 
@@ -42,7 +43,7 @@ creating  docker container
               ./create_docker.sh server:16.04
 
 
-role apache Installation
+#### role apache Installation
 
               ansible-playbook -i hosts roles/apache.yml
 output
@@ -52,3 +53,13 @@ output
 apache running
 
 ![imagen](https://user-images.githubusercontent.com/21178320/33262867-c29e0ab6-d335-11e7-9dc7-26036f6588de.png)
+
+___________________________________________________________________________________________________________________
+
+#### role munin installation
+
+              ansible-playbook -i hosts roles/munin.yml
+
+output
+
+![imagen](https://user-images.githubusercontent.com/21178320/33307489-ad5b00a0-d3e4-11e7-8a9a-7d24d8071b53.png)
