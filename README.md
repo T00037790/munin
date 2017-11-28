@@ -73,3 +73,8 @@ output
 output
 
 ![imagen](https://user-images.githubusercontent.com/21178320/33308355-1e83b36e-d3e8-11e7-9a27-668acb6d3f22.png)
+
+
+munin running
+
+![imagen](https://user-images.githubusercontent.com/21178320/33335157-3fe8c63c-d43a-11e7-9710-1200dbb8ca0e.png)
