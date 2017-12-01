@@ -127,5 +127,19 @@ Using Jmeter we are able to test a webpage, in this case I created a web page wh
 ![imagen](https://user-images.githubusercontent.com/21178320/33474457-a4255812-d648-11e7-80fc-f34df5c46b5b.png)
 
 
+### Interpreting the Results
+
+You will probably see that the Status of all the requests is "Success" (indicated by a green triangle with a checkmark in it). After that, the columns that you are probably most interest in are the Sample Time (ms) and Latency (not displayed in example) columns.
+
+	    Latency: The number of milliseconds that elapsed between when JMeter sent the request and when an initial response was received
+
+	    Sample Time: The number of milliseconds that the server took to fully serve the request (response + latency)
+
+
+According to the tables that ware generated, the average Sample Time in the first table was 10, in the second table was 19 ms and in the last table was 14 ms. This is a reasonable response time for a basic homepage (which was about 3093 KB). If your web application server is not struggling for resources, as demonstrated in the example, your Sample Time will be influenced primarily by geographical distance (which generally increases latency) and the size of the requested item (which increases transfer time). 
+
+So, the server survived our simulation of 1 and 10 users, performing 10, 100 and 1000 HTTP requets accessing the 3093 KB homepage over 8 seconds (125 every second) in the caseof the last table, with an acceptable response.
+
+
 
 
