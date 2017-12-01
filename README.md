@@ -97,7 +97,12 @@ The Apache JMeter™ application is open source software, a 100% pure Java appli
 
 _____________________________________________________________________________________________
 
-Using Jmeter we are able to test a webpage, in this case I created a web page which can be located in http://localhost/testing, by configuring apache2.
+Using Jmeter we are able to test a webpage, in this case I created a web page which can be accesed in http://localhost/testing, by configuring apache2.
+
+
+#### Apache configuration file 
+
+![imagen](https://user-images.githubusercontent.com/21178320/33473313-ed88d39e-d643-11e7-85a4-a919af14cecc.png)
 
 
 #### Web site for test
@@ -105,8 +110,18 @@ Using Jmeter we are able to test a webpage, in this case I created a web page wh
 ![imagen](https://user-images.githubusercontent.com/21178320/33473186-6875ca54-d643-11e7-94d9-0b2c7b19dbb4.png)
 
 
+##### followed by that, we proceed to create the different tests to the web page by configuring Jmeter
 
 
+#### 1 Thread (user), 10 HTTP requests
 
+![imagen](https://user-images.githubusercontent.com/21178320/33473882-2cd1d864-d646-11e7-9cfc-aab7e443d8ba.png)
+
+
+#### 10 Thread (user), 10 HTTP requests
+
+![imagen](https://user-images.githubusercontent.com/21178320/33474194-8995ed78-d647-11e7-9e25-540ecbf90963.png)
+
+#### 10 Thread (user), 100 HTTP requests
 
 
