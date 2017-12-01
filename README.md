@@ -78,3 +78,16 @@ output
 munin running
 
 ![imagen](https://user-images.githubusercontent.com/21178320/33335157-3fe8c63c-d43a-11e7-9710-1200dbb8ca0e.png)
+
+
+The next setp is to install jmeter  
+
+## Jmeter installation
+
+              apt-get install jmeter
+
+### Jmeter installed
+
+![imagen](https://user-images.githubusercontent.com/21178320/33472925-4810a320-d642-11e7-893d-174fb2925a2f.png)
+
+		
