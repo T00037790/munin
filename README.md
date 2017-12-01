@@ -79,15 +79,34 @@ munin running
 
 ![imagen](https://user-images.githubusercontent.com/21178320/33335157-3fe8c63c-d43a-11e7-9710-1200dbb8ca0e.png)
 
+_____________________________________________________________________________________________
 
-The next setp is to install jmeter  
+## Jmeter
+
+The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions. 
+
 
 ## Jmeter installation
 
               apt-get install jmeter
 
+
 ### Jmeter installed
 
 ![imagen](https://user-images.githubusercontent.com/21178320/33472925-4810a320-d642-11e7-893d-174fb2925a2f.png)
 
-		
+_____________________________________________________________________________________________
+
+Using Jmeter we are able to test a webpage, in this case I created a web page which can be located in http://localhost/testing, by configuring apache2.
+
+
+#### Web site for test
+
+![imagen](https://user-images.githubusercontent.com/21178320/33473186-6875ca54-d643-11e7-94d9-0b2c7b19dbb4.png)
+
+
+
+
+
+
+
