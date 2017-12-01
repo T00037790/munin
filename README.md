@@ -118,10 +118,14 @@ Using Jmeter we are able to test a webpage, in this case I created a web page wh
 ![imagen](https://user-images.githubusercontent.com/21178320/33473882-2cd1d864-d646-11e7-9cfc-aab7e443d8ba.png)
 
 
-#### 10 Thread (user), 10 HTTP requests
+#### 10 Threads (users), 10 HTTP requests
 
 ![imagen](https://user-images.githubusercontent.com/21178320/33474194-8995ed78-d647-11e7-9e25-540ecbf90963.png)
 
-#### 10 Thread (user), 100 HTTP requests
+#### 10 Threads (users), 100 HTTP requests
+
+![imagen](https://user-images.githubusercontent.com/21178320/33474457-a4255812-d648-11e7-80fc-f34df5c46b5b.png)
+
+
 
 
